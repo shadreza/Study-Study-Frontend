@@ -2,18 +2,18 @@
   <div id="app">
     <NavComponent/>
     <router-view />
-    <footer class="footer">
-      <p class="has-text-centered">Copyright 2022 @ Shad Reza</p>
-    </footer>
+    <FooterComponent/>
   </div>
 </template>
 
 <script>
   import NavComponent from './components/NavComponent.vue'
+  import FooterComponent from './components/FooterComponent.vue'
   export default {
     name : 'App',
     components : {
       NavComponent,
+      FooterComponent,
     },
   }
 </script>

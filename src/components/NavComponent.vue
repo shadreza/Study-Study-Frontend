@@ -24,13 +24,3 @@
       </div>
     </nav>
 </template>
-
-// <script>
-//     export default {
-//         name : NavComponent,
-//     }
-// </script>
-
-// <style lang="sass" scoped>
-
-// </style>
